@@ -18,6 +18,6 @@ y = np.array([
     [75]
 ])
 
-theta = np.linalg.inv((x.T) @ x) @ (x.T @ y)
+theta = np.linalg.inv(x.T @ x) @ (x.T @ y)
 
 print(theta)
